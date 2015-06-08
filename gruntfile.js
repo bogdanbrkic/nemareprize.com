@@ -193,7 +193,7 @@ module.exports = function(grunt) {
 
   //run all
   grunt.registerTask('all', ['modernizr', 'buildjs', 'buildcss', 'imageoptim']);
-  grunt.registerTask('all--img', ['modernizr', 'buildjs', 'buildcss']);
+  grunt.registerTask('all-img', ['modernizr', 'buildjs', 'buildcss']);
 
   //run small tasks:
   grunt.registerTask('build-js-css', ['buildjs', 'buildcss']);

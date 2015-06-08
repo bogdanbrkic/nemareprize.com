@@ -15,7 +15,7 @@
   .content {
     @include vertical-align;
     .big-title {
-      font-family: $font-roboto;
+      font-family: $font-quicksend;
       font-size: 120px;
       font-weight: 700;
       color: $red;
@@ -32,7 +32,7 @@
 }
 /* Power nap app */
 .hp__power-nap-app {
-  font-family: $font-roboto;
+  font-family: $font-quicksend;
   height: 100%;
   position: relative;
   .bckg {
@@ -127,7 +127,7 @@
 }
 /* Story header & footer*/
 .story__header {
-  font-family: $font-roboto;
+  font-family: $font-quicksend;
   padding: 30px 40px 100px;
   .story__number--big {
     width: 90px;

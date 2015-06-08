@@ -3,7 +3,7 @@
  * =======================================
  */
 ;
-console.log('Hello visitor & wellcome to afterwork space.');
+console.log('Hello visitor & wellcome to svadba Bogdan + Andrea.');
 
 
 /* =======================================
@@ -56,7 +56,7 @@ $(window).on('resize', function() {
  * =======================================
  */
 $(window).load(function() {
-  console.log('window loaded..');
+  // console.log('window loaded..');
 
   $( '#preloader' ).fadeOut( 1000, function() {
     $( 'body' ).addClass( 'preloader-done' );

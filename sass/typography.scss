@@ -1,22 +1,63 @@
 
 html{
   font-size: 16px;
+
+  @include media($mobile) {
+    font-size: rem(12);
+  }
 }
 
 body{
-  font-family: $font-roboto;
+  font-family: $font-quicksend;
+}
+
+p{
+  line-height:1;
+}
+
+h1 {
+  font-family: $font-quicksend;
+  font-size: 100px;
+  font-weight: 300;
 }
 
 h2{
-  font-family: $font-roboto;
+  font-family: $font-quicksend;
   font-size: 120px;
   font-weight: 700;
   color: $red;
 }
 
 h3{
-  font-family: $font-roboto;
+  font-family: $font-quicksend;
 }
+
 h4{
-  font-family: $font-roboto;
+  font-family: $font-quicksend;
+}
+
+.txt--big {
+  font-family: $font-quicksend;
+  font-size: rem(80);
+  font-weight: 300;
+}
+
+.txt--mid {
+  font-family: $font-quicksend;
+  font-size: rem(40);
+  font-weight: 300;
+}
+
+.txt--small {
+  font-family: $font-quicksend;
+  font-size: rem(24);
+  font-weight: 300;
+}
+
+.line-h-06{
+  line-height: 0.8;
+}
+
+.line-h-02{
+  line-height: 0.4;
 }
